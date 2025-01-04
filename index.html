@@ -1,57 +1,86 @@
-<!-- create a website whitch has your 5 top used website bookmarked.The links should open in a new tab-->
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your fevorite bookmarked</title>
-    <style><!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Your favorite bookmarked</title>
-            <style>
-                /* Global styles */
-                body {
-                    font-family: Arial, sans-serif;
-                    background-color: #f0f8ff; /* Light blue background */
-                    color: #333; /* Dark text for readability */
-                    margin: 0;
-                    padding: 0;
-                }
-        
-                h1 {
-                    text-align: center;
-                    color: #1e3a8a; /* Dark blue for heading */
-                    padding: 20px;
-                    margin-top: 0;
-                }
-        
-                a {
-                    display: block;
-                    width: 200px;
-                    text-align: center;
-                    margin: 10px auto;
-                    padding: 15px;
-                    text-decoration: none;
-                    font-size: 18px;
-                    background-color: #1e3a8a; /* Dark blue background for links */
-                    color: white;
-                    border-radius: 5px;
-                    transition: background-color 0.3s ease, transform 0.3s ease;
-                }
-        
-                a:hover {
-                    background-color: #3b82f6
-        </style>
- </head>
- <body>
-    <h1>your fevorite website</h1>
-    <a href="https://google.com" target="_blank">Google</a>
-    <a href="https://youtube.com" target="_blank">Youtube</a>
-    <a href="https://instagram.com" target="_blank">instagram</a>
-    <a href="https://facebook.com" target="_blank">facebook</a>
-    <a href="https://chatgpt.com" target="_blank">chatgpt</a>
- </body>
- </html>
+    <title>Rajen | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <nav>
+                <div class="logo">My portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">My Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="hero-section" id="home">
+                <h1>Hello! <br> I'm <span class="highlight">Rajen Dey</span></h1>
+                <div class="cta-buttons">
+                    <a href="cv.pdf" class="btn primary-btn">HIRE ME</a>
+                    <a href="#portfolio" class="btn secondary-btn">MY WORKS</a>
+                </div>
+                <img src="profile.png" alt="Rajen Dey" loading="lazy">
+            </div>
+        </div>
+    </header>
+    <section class="about-me" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am studying Computer Science and technology at Berhampore Polytechnic College</p>
+            <div class="info">
+                <p><strong>Name:</strong> Rajen Dey</p>
+                <p><strong>Date of birth:</strong> jun 12, 2004</p>
+                <p><strong>Address:</strong> satui , Berhampore , Murshidabad , West bengal </p>
+                <p><strong>Pin code:</strong> 742405 </p>
+                <p><strong>Email:</strong> rajendey7478@gmail.com</p>
+                <li><a href="https://Wa.me/91+7478368160" class="active">WhatsAPP</a></li>
+            </div>
+            <br/>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="skill-item">
+                    <span>PHP</span>
+                    <div class="skill-bar"><div class="fill" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>HTML5</span>
+                    <div class="skill-bar"><div class="fill" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>WordPress</span>
+                    <div class="skill-bar"><div class="fill" style="width: 70%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>jQuery</span>
+                    <div class="skill-bar"><div class="fill" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>CSS3</span>
+                    <div class="skill-bar"><div class="fill" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <span>SEO</span>
+                    <div class="skill-bar"><div class="fill" style="width: 80%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
